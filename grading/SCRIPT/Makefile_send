@@ -1,0 +1,59 @@
+########################################################################
+# CS392X1$ROWS:
+########################################################################
+
+row0: ; \
+mailx -c hwxi@bu.edu -r hwxi@bu.edu -s CS392X1-your-grades-so-far hwxi@bu.edu < ./../STUDENT/hwxi@bu.edu/mydata.txt
+
+all:: \
+row1
+row1: ; \
+mailx -c hwxi@bu.edu -r hwxi@bu.edu -s CS392X1-your-grades-so-far anaima@bu.edu < ./../STUDENT/anaima@bu.edu/mydata.txt
+
+all:: \
+row2
+row2: ; \
+mailx -c hwxi@bu.edu -r hwxi@bu.edu -s CS392X1-your-grades-so-far dahye@bu.edu < ./../STUDENT/dahye@bu.edu/mydata.txt
+
+all:: \
+row3
+row3: ; \
+mailx -c hwxi@bu.edu -r hwxi@bu.edu -s CS392X1-your-grades-so-far jpinnepu@bu.edu < ./../STUDENT/jpinnepu@bu.edu/mydata.txt
+
+all:: \
+row4
+row4: ; \
+mailx -c hwxi@bu.edu -r hwxi@bu.edu -s CS392X1-your-grades-so-far jsquared@bu.edu < ./../STUDENT/jsquared@bu.edu/mydata.txt
+
+all:: \
+row5
+row5: ; \
+mailx -c hwxi@bu.edu -r hwxi@bu.edu -s CS392X1-your-grades-so-far mutiraj@bu.edu < ./../STUDENT/mutiraj@bu.edu/mydata.txt
+
+all:: \
+row6
+row6: ; \
+mailx -c hwxi@bu.edu -r hwxi@bu.edu -s CS392X1-your-grades-so-far janpaul@bu.edu < ./../STUDENT/janpaul@bu.edu/mydata.txt
+
+all:: \
+row7
+row7: ; \
+mailx -c hwxi@bu.edu -r hwxi@bu.edu -s CS392X1-your-grades-so-far waqar@bu.edu < ./../STUDENT/waqar@bu.edu/mydata.txt
+
+all:: \
+row8
+row8: ; \
+mailx -c hwxi@bu.edu -r hwxi@bu.edu -s CS392X1-your-grades-so-far jrw142@bu.edu < ./../STUDENT/jrw142@bu.edu/mydata.txt
+
+all:: \
+row9
+row9: ; \
+mailx -c hwxi@bu.edu -r hwxi@bu.edu -s CS392X1-your-grades-so-far mhabibeh@bu.edu < ./../STUDENT/mhabibeh@bu.edu/mydata.txt
+
+all:: \
+row10
+row10: ; \
+mailx -c hwxi@bu.edu -r hwxi@bu.edu -s CS392X1-your-grades-so-far youngsun@bu.edu < ./../STUDENT/youngsun@bu.edu/mydata.txt
+
+########################################################################
+########################################################################
