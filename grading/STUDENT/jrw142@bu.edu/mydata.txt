@@ -4,6 +4,21 @@ U97-26-8134
 jrw142@bu.edu
 ############################################################
 Assign01:
+term_freevars: 10/10 // no point deduction
+HX-2026-02-10:
+Please name your file "lambda0.py" as is given in Code.
+"TMlam" should be "TMapp"
+    if tm0.ctag == "TMvar": 
+        return {tm0.arg1}
+    else if tm0.ctag == "TMlam":
+        free = term_freevars{tm0.arg1}
+        free2 = term_freevars(tm0.arg2}
+        free.update(free2)
+        return free
+    else:
+        free = term_freevars{tm0.arg2}
+        free.remove(tm0.arg1)
+        return free
 ############################################################
 Assign02:
 ############################################################

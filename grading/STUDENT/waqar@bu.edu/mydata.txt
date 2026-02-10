@@ -4,6 +4,10 @@ U15951559
 waqar@bu.edu
 ############################################################
 Assign01:
+term_freevars: 10/10 // no point deduction
+Please do not change the code in the Code directory.
+Instead, your submitted code should reside inside MySolution
+(not Code)
 ############################################################
 Assign02:
 ############################################################
